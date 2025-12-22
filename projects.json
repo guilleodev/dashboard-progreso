@@ -5,14 +5,42 @@
         "category": "Diseño",
         "status": "en progreso",
         "progress": "75",
-        "description": "Tres diseños de portfolio (retro, moderno y personal)"
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Retro"
+            },
+            {
+                "value": 50,
+                "label": "Moderno"
+            },
+            {
+                "value": 75,
+                "label": "Personal"
+            }
+        ],
+        "description": "Creación en figma de 3 diseños de portfolio (retro, moderno y personal)"
     },
     {
         "id": "gatunacrochet-web",
         "title": "Terminar la web de GatunaCrochet",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "90",
+        "progress": "75",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Desarrollo"
+            },
+            {
+                "value": 50,
+                "label": "Publicación"
+            },
+            {
+                "value": 75,
+                "label": "Figma"
+            }
+        ],
         "description": "Tienda online para GatunaCrochet con catálogo de productos"
     },
     {
@@ -20,7 +48,21 @@
         "title": "Desarrollar un portfolio personal",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "70",
+        "progress": "75",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Diseño Figma"
+            },
+            {
+                "value": 50,
+                "label": "Desarrollo"
+            },
+            {
+                "value": 75,
+                "label": "Pulir y publicar"
+            }
+        ],
         "description": "Terminar de desarrollar mi portfolio personal ya comenzado"
     },
     {
@@ -29,6 +71,20 @@
         "category": "Desarrollo",
         "status": "sin empezar",
         "progress": "0",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Diseño Figma"
+            },
+            {
+                "value": 50,
+                "label": "Desarrollo"
+            },
+            {
+                "value": 75,
+                "label": "Publicación"
+            }
+        ],
         "description": "Página donde se muestre el diseño de mis portfolios creados"
     },
     {
@@ -37,6 +93,20 @@
         "category": "Desarrollo",
         "status": "sin empezar",
         "progress": "0",
+        "milestones": [
+            {
+                "value": 25,
+                "label": ""
+            },
+            {
+                "value": 50,
+                "label": ""
+            },
+            {
+                "value": 75,
+                "label": ""
+            }
+        ],
         "description": "Aprender Tailwind CSS desde 0"
     },
     {
@@ -45,14 +115,42 @@
         "category": "Desarrollo",
         "status": "sin empezar",
         "progress": "0",
-        "description": "Aprender Bootstrap desde 0"       
+        "milestones": [
+            {
+                "value": 25,
+                "label": ""
+            },
+            {
+                "value": 50,
+                "label": ""
+            },
+            {
+                "value": 75,
+                "label": ""
+            }
+        ],
+        "description": "Aprender Bootstrap desde 0"
     },
     {
         "id": "git-github",
         "title": "Aprender Git y Github",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "20",
+        "progress": "75",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Conceptos básicos"
+            },
+            {
+                "value": 50,
+                "label": "Git y Github"
+            },
+            {
+                "value": 75,
+                "label": "Aplicarlo en proyecto"
+            }
+        ],
         "description": "Aprender Git y Github y ponerlo en práctica"
     },
     {
@@ -61,6 +159,20 @@
         "category": "Diseño",
         "status": "en progreso",
         "progress": "50",
+                "milestones": [
+            {
+                "value": 25,
+                "label": "Diseño"
+            },
+            {
+                "value": 50,
+                "label": "Hacerla"
+            },
+            {
+                "value": 75,
+                "label": "Definitiva"
+            }
+        ],
         "description": "Crear una firma para Gmail para uso personal"
     }
 ]
