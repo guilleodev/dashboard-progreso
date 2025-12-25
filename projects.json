@@ -19,7 +19,7 @@
                 "label": "Guía de estilos"
             }
         ],
-        "description": "Creación en figma de 3 diseños de portfolio (retro, moderno y personal)",
+        "description": "Crear en Figma el diseño de 3 tipos de portfolios: Retro, Modern y Personal. Este diseño debe contener la versión de escritorio y móvil, guía de estilos y mockup.",
         "doneTasks": [
             {
                 "task1": "Diseño escritorio (Retro, Modern, Personal)✔️",
@@ -56,7 +56,7 @@
                 "label": "Figma"
             }
         ],
-        "description": "Tienda online para GatunaCrochet con catálogo de productos",
+        "description": "Creación y publicación de la web de GatunaCrochet en su totalidad, incluyendo el diseño en Figma y utilizando WordPress como CMS y Elementor como maquetador.",
         "doneTasks": [
             {
                 "task1": "Web desarrollada✔️",
@@ -78,7 +78,7 @@
         "milestones": [
             {
                 "value": 25,
-                "label": "Diseño Figma"
+                "label": "Figma"
             },
             {
                 "value": 50,
@@ -86,10 +86,10 @@
             },
             {
                 "value": 75,
-                "label": "Pulir y publicar"
+                "label": "Publicar"
             }
         ],
-        "description": "Terminar de desarrollar mi portfolio personal ya comenzado",
+        "description": "Terminar de desarrollar mi portfolio personal, cuyo progreso ya está avanzado en local y falta pulir detalles y publicarlo en github.",
         "doneTasks": [
             {
                 "task1": "Diseño en Figma✔️",
@@ -104,98 +104,6 @@
         ]
     },
     {
-        "id": "pagina-portfolios",
-        "title": "Desarrollar una página de portfolios",
-        "category": "Desarrollo",
-        "status": "sin empezar",
-        "progress": "0",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Diseño Figma"
-            },
-            {
-                "value": 50,
-                "label": "Desarrollo"
-            },
-            {
-                "value": 75,
-                "label": "Publicación"
-            }
-        ],
-        "description": "Página donde se muestre el diseño de mis portfolios creados",
-        "doneTasks": [
-            {}
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Crear diseño en Figma⭕",
-                "task2": "Desarrollar web⭕",
-                "task3": "Publicar en github⭕"
-            }
-        ]
-    },
-    {
-        "id": "tailwind",
-        "title": "Aprender Tailwind CSS",
-        "category": "Desarrollo",
-        "status": "sin empezar",
-        "progress": "0",
-        "milestones": [
-            {
-                "value": 25,
-                "label": ""
-            },
-            {
-                "value": 50,
-                "label": ""
-            },
-            {
-                "value": 75,
-                "label": ""
-            }
-        ],
-        "description": "Aprender Tailwind CSS desde 0",
-        "doneTasks": [
-            {}
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Aprender Tailwind CSS⭕"
-            }
-        ]
-    },
-    {
-        "id": "bootstrap",
-        "title": "Aprender Bootstrap",
-        "category": "Desarrollo",
-        "status": "sin empezar",
-        "progress": "0",
-        "milestones": [
-            {
-                "value": 25,
-                "label": ""
-            },
-            {
-                "value": 50,
-                "label": ""
-            },
-            {
-                "value": 75,
-                "label": ""
-            }
-        ],
-        "description": "Aprender Bootstrap desde 0",
-        "doneTasks": [
-            {}
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Aprender Bootstrap⭕"
-            }
-        ]
-    },
-    {
         "id": "git-github",
         "title": "Aprender Git y Github",
         "category": "Desarrollo",
@@ -204,7 +112,7 @@
         "milestones": [
             {
                 "value": 25,
-                "label": "Conceptos básicos"
+                "label": "Conceptos"
             },
             {
                 "value": 50,
@@ -212,10 +120,10 @@
             },
             {
                 "value": 75,
-                "label": "Aplicarlo en proyecto"
+                "label": "Subir repos"
             }
         ],
-        "description": "Aprender Git y Github y ponerlo en práctica",
+        "description": "Aprender Git y Github desde 0 para poder aplicarlo en mis proyectos futuros. Una vez aprendido, crear repositorios en cada proyecto que desarrolle.",
         "doneTasks": [
             {
                 "task1": "Aprender conceptos básicos✔️",
@@ -247,7 +155,7 @@
                 "label": "Definitiva"
             }
         ],
-        "description": "Crear una firma para Gmail para uso personal",
+        "description": "Crear una firma para Gmail que pueda utilizar en mis correos electrónicos profesionales utilizando código HTMLd y después exportándolo a Gmail.",
         "doneTasks": [
             {
                 "task1": "Diseño en código✔️"
@@ -257,6 +165,98 @@
             {
                 "task1": "Mejorar el diseño⭕",
                 "task2": "Publicar en github⭕"
+            }
+        ]
+    },
+    {
+        "id": "pagina-portfolios",
+        "title": "Desarrollar una página de portfolios",
+        "category": "Desarrollo",
+        "status": "sin empezar",
+        "progress": "0",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Figma"
+            },
+            {
+                "value": 50,
+                "label": "Desarrollo"
+            },
+            {
+                "value": 75,
+                "label": "Publicación"
+            }
+        ],
+        "description": "Desarrollo de una página web que muestre mis portfolios diseñados en Figma para que el usuario pueda verlos de forma interactiva.",
+        "doneTasks": [
+            {}
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Crear diseño en Figma⭕",
+                "task2": "Desarrollar web⭕",
+                "task3": "Publicar en github⭕"
+            }
+        ]
+    },
+    {
+        "id": "tailwind",
+        "title": "Aprender Tailwind CSS",
+        "category": "Desarrollo",
+        "status": "sin empezar",
+        "progress": "0",
+        "milestones": [
+            {
+                "value": 25,
+                "label": ""
+            },
+            {
+                "value": 50,
+                "label": ""
+            },
+            {
+                "value": 75,
+                "label": ""
+            }
+        ],
+        "description": "Aprender Tailwind CSS desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
+        "doneTasks": [
+            {}
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Aprender Tailwind CSS⭕"
+            }
+        ]
+    },
+    {
+        "id": "bootstrap",
+        "title": "Aprender Bootstrap",
+        "category": "Desarrollo",
+        "status": "sin empezar",
+        "progress": "0",
+        "milestones": [
+            {
+                "value": 25,
+                "label": ""
+            },
+            {
+                "value": 50,
+                "label": ""
+            },
+            {
+                "value": 75,
+                "label": ""
+            }
+        ],
+        "description": "Aprender Bootstrap desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
+        "doneTasks": [
+            {}
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Aprender Bootstrap⭕"
             }
         ]
     }
