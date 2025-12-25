@@ -35,7 +35,7 @@ header {
     background-color: rgb(218, 218, 218);
 }
 
-header > p {
+header>p {
     font-size: 1rem;
     font-weight: 700;
 }
@@ -49,7 +49,7 @@ main {
     flex: 1;
 }
 
-#intro > p {
+#intro>p {
     font-size: 1rem;
 }
 
@@ -117,7 +117,37 @@ main {
 .project-card:hover {
     transform: translateY(-2px) scale(1.05);
     background-color: rgb(218, 218, 218);
-    color: black;
+    color: rgb(233, 233, 233);
+}
+
+.project-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, #515151, #3c3c3c, #525252);
+    background-size: 200% 200%;
+    /* animation gradient */
+    animation: gradientMove 15s ease infinite;
+    z-index: 0;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.project-card>* {
+    position: relative;
+    z-index: 1;
 }
 
 .project-card.flipped {
