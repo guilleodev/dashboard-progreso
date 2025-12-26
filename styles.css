@@ -13,13 +13,23 @@ body {
 /* ================================ */
 
 body {
-    background-color: #242424;
+    background: linear-gradient(120deg, #434343, #1f1f1f, #313131);
+    background-size: 400% 400%;
+    animation: bgMove 20s linear infinite;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     font-family: 'Orbitron';
     gap: 2rem;
     min-height: 100vh;
+}
+
+@keyframes bgMove {
+    0% { background-position: 0% 50%; }
+    25% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    75% { background-position: 100% 50%; }
+    100% { background-position: 100% 50%; }
 }
 
 /* =========== Header =========== */
@@ -54,7 +64,7 @@ main {
 #intro>p {
     font-size: 0.85rem;
     font-weight: 600;
-    color:#7dfed1;
+    color: #7dfed1;
     letter-spacing: 1.6px;
 }
 
@@ -149,8 +159,8 @@ main {
     max-width: 300px;
     max-height: 600px;
     background-color: rgb(50, 54, 53);
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    ;
+    /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); */
     /*animation transform*/
     transition:
         transform .6s ease,
@@ -162,6 +172,7 @@ main {
     transform-style: preserve-3d;
     cursor: pointer;
     font-size: 0.85rem;
+    border-radius: 20px;
 }
 
 .project-card:hover {
@@ -177,6 +188,7 @@ main {
     /* animation gradient */
     animation: gradientMove 15s ease infinite;
     z-index: 0;
+    border-radius: 20px;
 }
 
 .project-card.progress-none::before {
@@ -189,6 +201,7 @@ main {
     animation: gradientMove 15s ease infinite;
     z-index: 0;
     border: 1px solid black;
+    box-shadow: 0 3px 10px rgba(0, 131, 129, 0.941);
 }
 
 .project-card.progress-complete::before {
@@ -201,6 +214,8 @@ main {
     animation: gradientMove 15s ease infinite;
     z-index: 0;
     border: 2px solid white;
+    rgba(60, 237, 234, 0.941)rgba(60, 237, 110, 0.941)rgba(21, 252, 87, 0.941);
+    box-shadow: 0 3px 10px rgba(16, 255, 52, 0.941);
 }
 
 .project-card.progress-some::before {
@@ -213,6 +228,7 @@ main {
     animation: gradientMove 15s ease infinite;
     z-index: 0;
     border: 1px solid black;
+    box-shadow: 0 3px 10px rgba(12, 76, 22, 0.941);
 }
 
 @keyframes gradientMove {
