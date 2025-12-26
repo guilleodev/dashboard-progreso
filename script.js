@@ -69,6 +69,7 @@ fetch("projects.json")
             <p class="project-description"><u>Descripción:</u> ${project.description}</p>
             <p class="project-status"><u>Estado:</u> ${project.status}</p>
             <p class="project-category"><u>Categoría:</u> ${project.category}</p>
+            <p class="card-click">PULSA PARA GIRAR</p>
         </div>
 
         <div class="back">
@@ -81,6 +82,7 @@ fetch("projects.json")
             <ul>
                 ${undoneTasksHTML || "<li>No hay tareas pendientes.</li>"}
             </ul>
+            <p class="card-click">PULSA PARA GIRAR</p>
         </div>
     `;
 

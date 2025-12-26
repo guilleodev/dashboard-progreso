@@ -29,15 +29,16 @@ header {
     flex-direction: column;
     align-items: center;
     font-weight: 500;
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 20px 150px 20px 150px;
     gap: 1rem;
-    background-color: rgb(218, 218, 218);
+    background-color: #f6f6f6;
 }
 
 header>p {
     font-size: 1rem;
     font-weight: 700;
+    letter-spacing: 1.6px;
 }
 
 /* =========== Main =========== */
@@ -45,12 +46,16 @@ header>p {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.3rem;
     flex: 1;
 }
 
 #intro>p {
-    font-size: 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color:#7dfed1;
+    letter-spacing: 1.6px;
 }
 
 /* ----- Projects ----- */
@@ -289,6 +294,18 @@ main {
     letter-spacing: 2px;
 }
 
+.card-click {
+    font-size: 0.65rem;
+    font-weight: 700;
+    font-family: 'Orbitron';
+    letter-spacing: 2px;
+    color: yellow;
+    width: 100%;
+    text-align: left;
+    bottom: 20px;
+    position: absolute;
+}
+
 .milestone {
     position: absolute;
     top: 50%;
@@ -321,9 +338,11 @@ main {
 
 #intro {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 0px 150px 0px 150px;
+    justify-content: center;
+    height: auto;
+    padding: 10px 150px 10px 150px;
+    background-color: rgb(53, 53, 53);
 }
 
 /* ----- Summary ----- */
