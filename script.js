@@ -10,6 +10,15 @@ fetch("projects.json")
             card.classList.add("project-card");
 
             const progress = Number(project.progress);
+
+            if (progress === 0) {
+                card.classList.add("progress-none");
+            } else if (progress === 100) {
+                card.classList.add("progress-complete");
+            } else {
+                card.classList.add("progress-some");
+            }
+
             const milestones = Array.isArray(project.milestones) ? project.milestones : [];
 
             const milestonesHTML = milestones.length
@@ -47,11 +56,11 @@ fetch("projects.json")
             card.innerHTML = `
         <div class="front">
             <h2 class="project-title">${project.title}</h2>
-
             <div class="progress-wrapper">
                 <div class="progress-bar">
                     <div class="progress-fill" style="width:${progress}%">
                         <span class="progress-number">${progress}%</span>
+                        <div class="bubbles"></div>
                     </div>
                     ${milestonesHTML}
                 </div>
