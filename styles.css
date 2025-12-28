@@ -354,6 +354,13 @@ main {
     letter-spacing: 2px;
 }
 
+.back>ul>li {
+    font-size: 0.7rem;
+    font-weight: 800;
+    font-family: 'Orbitron';
+    letter-spacing: 2.5px;
+}
+
 .card-click {
     font-size: 0.65rem;
     font-weight: 700;
