@@ -13,7 +13,7 @@ body {
 /* ================================ */
 
 body {
-    background-color: #232323; 
+    background-color: #232323;
     background-size: 400% 400%;
     animation: bgMove 20s linear infinite;
     color: #FFFFFF;
@@ -54,16 +54,40 @@ header {
     align-items: center;
     font-weight: 500;
     color: rgb(0, 0, 0);
-    padding: 20px 150px 20px 150px;
+    padding: 30px 150px 20px 150px;
     gap: 1rem;
     background-color: #f6f6f6;
 }
 
 header>p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     letter-spacing: 1.6px;
+    padding-top: 15px;
 }
+
+.title {
+    cursor: pointer;
+    text-decoration: underline;
+    animation: fillGlow 3s ease-in-out infinite alternate;
+}
+
+.title:hover {
+    color: #1dba83;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@keyframes fillGlow {
+    0% {
+        filter: brightness(1.9) saturate(1);
+    }
+
+    100% {
+        filter: brightness(1.3) saturate(1.4);
+    }
+}
+
 
 /* =========== Main =========== */
 
@@ -476,7 +500,7 @@ footer {
         flex-direction: column;
         width: auto;
     }
-    
+
     #intro>p {
         font-size: 0.75rem;
     }
