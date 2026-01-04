@@ -235,29 +235,33 @@
         "id": "tailwind",
         "title": "Aprender Tailwind CSS",
         "category": "Desarrollo",
-        "status": "sin empezar",
-        "progress": "0",
+        "status": "en progreso",
+        "progress": "75",
         "milestones": [
             {
                 "value": 25,
-                "label": ""
+                "label": "Hacer curso"
             },
             {
                 "value": 50,
-                "label": ""
+                "label": "Crear proyecto"
             },
             {
                 "value": 75,
-                "label": ""
+                "label": "Subir proyecto"
             }
         ],
         "description": "Aprender Tailwind CSS desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
         "doneTasks": [
-            {}
+            {
+                "task1": "Hacer un curso para aprenderlo✔️",
+                "task2": "Crear un proyecto con Tailwind CSS✔️",
+                "task3": "Subir el proyecto a Github✔️"
+            }
         ],
         "undoneTasks": [
             {
-                "task1": "Aprender Tailwind CSS⭕"
+                "task1": "Terminar proyecto completo⭕"
             }
         ],
         "software": {
