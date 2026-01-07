@@ -54,19 +54,31 @@ header {
     align-items: center;
     font-weight: 500;
     color: rgb(0, 0, 0);
-    padding: 30px 150px 20px 150px;
+    padding: 18px 150px 18px 150px;
     gap: 1rem;
     background-color: #f6f6f6;
 }
 
-header>p {
-    font-size: 0.9rem;
-    font-weight: 700;
-    letter-spacing: 1.6px;
-    padding-top: 15px;
+header>a>img {
+    width: 250px;
+    height: auto;
+    transition:
+        transform .6s ease,
+        filter .18s ease,
+        opacity .18s ease,
+        background 0.95s ease,
+        color 0.10s ease;
+    cursor: pointer;
+}
+
+header>a>img:hover {
+    width: 250px;
+    height: auto;
+    transform: translateY(-2px) scale(1.05);
 }
 
 .title {
+    font-size: 1.85rem;
     cursor: pointer;
     text-decoration: underline;
     animation: fillGlow 3s ease-in-out infinite alternate;
@@ -416,10 +428,12 @@ main {
 
 #intro {
     display: flex;
+    flex-direction: column;
+    gap: 1em;
     align-items: center;
     justify-content: center;
     height: auto;
-    padding: 10px 150px 10px 150px;
+    padding: 10px 200px 10px 200px;
     background-color: rgb(53, 53, 53);
 }
 
@@ -438,12 +452,35 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(218, 218, 218);
+    background-color: #f6f6f6;
     color: black;
     padding: 20px 20px 20px 20px;
     margin-top: 50px;
     font-weight: 700;
     width: 100%;
+}
+
+footer>img {
+    width: 150px;
+    height: auto;
+    transition:
+        transform .6s ease,
+        filter .18s ease,
+        opacity .18s ease,
+        background 0.95s ease,
+        color 0.10s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+footer>img:hover {
+    width: 150px;
+    height: auto;
+    transform: translateY(-2px) scale(1.05);
+}
+
+footer>span {
+    font-size: 0.85em;
 }
 
 /* ================================ */
@@ -459,8 +496,12 @@ footer {
     }
 
     #intro {
-        padding: 10px 40px;
+        padding: 15px 80px;
         text-align: center;
+    }
+
+    .title {
+        font-size: 1.2em;
     }
 
     #projects {
@@ -474,6 +515,10 @@ footer {
 
     #summary>ul {
         gap: 2rem;
+    }
+
+    #intro>p {
+        font-size: 0.7rem;
     }
 }
 
@@ -492,34 +537,37 @@ footer {
         width: auto;
     }
 
-    header>h1 {
-        font-size: 1.5rem;
-    }
-
     header>p {
         font-size: 0.8rem;
         padding: 5px 20px;
     }
 
+    .title {
+        font-size: 1.2em;
+    }
+
     #intro {
-        padding: 15px 20px;
+        padding: 15px 80px;
         text-align: center;
         flex-direction: column;
         width: auto;
     }
 
     #intro>p {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
 
     #projects {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
+        gap: 0.5rem;
         padding: 0 10px 20px 10px;
     }
 
     .project-card {
         flex: 1 1 calc(50% - 1.5rem);
-        max-width: 70%;
+        max-width: calc(50% - 1.5rem);
     }
 
     .project-card .front,
@@ -530,6 +578,11 @@ footer {
     .card-click {
         font-size: 0.6rem;
         bottom: 15px;
+    }
+
+    .project-title {
+        font-size: 14px;
+        text-align: left;
     }
 
     #summary>ul {

@@ -121,6 +121,43 @@
         }
     },
     {
+        "id": "firma-gmail",
+        "title": "Realizar una firma de gmail para mis correos",
+        "category": "Diseño",
+        "status": "en progreso",
+        "progress": "75",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Diseño"
+            },
+            {
+                "value": 50,
+                "label": "Hacerla"
+            },
+            {
+                "value": 75,
+                "label": "Definitiva"
+            }
+        ],
+        "description": "Crear una firma para Gmail que pueda utilizar en mis correos electrónicos profesionales utilizando código HTMLd y después exportándolo a Gmail.",
+        "doneTasks": [
+            {
+                "task1": "Diseño en código✔️"
+            }
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Mejorar el diseño⭕",
+                "task2": "Publicar en github⭕"
+            }
+        ],
+        "software": {
+            "icon1": "assets/img/logoVSC.png",
+            "icon12": "assets/img/logoGmail.png"
+        }
+    },
+    {
         "id": "git-github",
         "title": "Aprender Git y Github",
         "category": "Desarrollo",
@@ -156,41 +193,41 @@
             "icon2": "assets/img/logoGithub.png"
         }
     },
-    {
-        "id": "firma-gmail",
-        "title": "Realizar una firma de gmail para mis correos",
-        "category": "Diseño",
+        {
+        "id": "tailwind",
+        "title": "Aprender Tailwind CSS",
+        "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "75",
+        "progress": "100",
         "milestones": [
             {
                 "value": 25,
-                "label": "Diseño"
+                "label": "Hacer curso"
             },
             {
                 "value": 50,
-                "label": "Hacerla"
+                "label": "Crear proyecto"
             },
             {
                 "value": 75,
-                "label": "Definitiva"
+                "label": "Subir proyecto"
             }
         ],
-        "description": "Crear una firma para Gmail que pueda utilizar en mis correos electrónicos profesionales utilizando código HTMLd y después exportándolo a Gmail.",
+        "description": "Aprender Tailwind CSS desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
         "doneTasks": [
             {
-                "task1": "Diseño en código✔️"
+                "task1": "Hacer un curso para aprenderlo✔️",
+                "task2": "Crear un proyecto con Tailwind CSS✔️",
+                "task3": "Subir el proyecto a Github✔️"
             }
         ],
         "undoneTasks": [
             {
-                "task1": "Mejorar el diseño⭕",
-                "task2": "Publicar en github⭕"
+                "task1": "Terminar proyecto completo⭕"
             }
         ],
         "software": {
-            "icon1": "assets/img/logoVSC.png",
-            "icon12": "assets/img/logoGmail.png"
+            "icon1": "assets/img/logoTailwind.png"
         }
     },
     {
@@ -229,43 +266,6 @@
             "icon2": "assets/img/logoHTML.png",
             "icon3": "assets/img/logoTailwind.png",
             "icon4": "assets/img/logoJS.png"
-        }
-    },
-    {
-        "id": "tailwind",
-        "title": "Aprender Tailwind CSS",
-        "category": "Desarrollo",
-        "status": "en progreso",
-        "progress": "75",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Hacer curso"
-            },
-            {
-                "value": 50,
-                "label": "Crear proyecto"
-            },
-            {
-                "value": 75,
-                "label": "Subir proyecto"
-            }
-        ],
-        "description": "Aprender Tailwind CSS desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
-        "doneTasks": [
-            {
-                "task1": "Hacer un curso para aprenderlo✔️",
-                "task2": "Crear un proyecto con Tailwind CSS✔️",
-                "task3": "Subir el proyecto a Github✔️"
-            }
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Terminar proyecto completo⭕"
-            }
-        ],
-        "software": {
-            "icon1": "assets/img/logoTailwind.png"
         }
     },
     {
