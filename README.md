@@ -1,7 +1,7 @@
 # Dashboard de Progreso - Proyectos personales
 
-<a href="https://guirecam.github.io/dashboard-progreso/">
-<img src="https://raw.githubusercontent.com/guirecam/dashboard-progreso/main/preview.png" width="700" />
+<a href="https://guilleodev.github.io/dashboard-progreso/">
+<img src="https://raw.githubusercontent.com/guilleodev/dashboard-progreso/main/preview.png" width="700" />
 </a>
 
 Consiste en un pequeño dashboard donde muestro el progreso actualizado de mis proyectos personales de forma visual y organizada, así como su descripción, categoría, etc.
@@ -11,7 +11,7 @@ Los datos se cargan dinámicamente desde un archivo JSON y se representan median
 Este proyecto tiene como objetivo centralizar el seguimiento de mis proyectos de forma clara, simple y visual.
 
 # 🚀 Demo (GitHub Pages)
-🔗 **Ver proyecto online:** https://guirecam.github.io/dashboard-progreso/
+🔗 **Ver proyecto online:** https://guilleodev.github.io/dashboard-progreso/
 
 # ⚙️ Características
 - Carga de proyectos desde **projects.json**
@@ -53,6 +53,6 @@ Por ahora es un proyecto personal, pero abierto a ideas y sugerencias.
 
 <p align="center">
   Hecho con ☕ por <strong>GuilleODEV</strong><br>
-  <a href="https://github.com/Guirecam">GitHub</a> · 
+  <a href="https://github.com/guilleodev">GitHub</a> · 
   <a href="https://www.linkedin.com/in/guillermo-redondo-camacho/">LinkedIn</a>
 </p>
