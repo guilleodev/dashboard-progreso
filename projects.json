@@ -82,7 +82,7 @@
         "title": "Desarrollar un portfolio personal",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "75",
+        "progress": "90",
         "milestones": [
             {
                 "value": 25,
@@ -101,13 +101,15 @@
         "doneTasks": [
             {
                 "task1": "Diseño en Figma✔️",
-                "task2": "Desarrollo web✔️"
+                "task2": "Desarrollo web✔️",
+                "task3": "Remodelación del diseño✔️"
             }
         ],
         "undoneTasks": [
             {
-                "task1": "Duplicar proyecto en github⭕",
-                "task2": "Publicar en github⭕"
+                "task1": "Publicar proyecto en github⭕",
+                "task2": "Pulir el responsive⭕",
+                "task3": "Desplegar en netlify⭕"
             }
         ],
         "software": {
@@ -116,8 +118,7 @@
             "icon3": "assets/img/logoCSS.png",
             "icon4": "assets/img/logoJS.png",
             "icon5": "assets/img/logoGithub.png",
-            "icon6": "assets/img/logoReact.png",
-            "icon7": "assets/img/logoNode4.png"
+            "icon6": "assets/img/logoTailwind.png"
         }
     },
     {
