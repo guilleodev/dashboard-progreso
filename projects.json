@@ -194,7 +194,7 @@
             "icon2": "assets/img/logoGithub.png"
         }
     },
-        {
+    {
         "id": "tailwind",
         "title": "Aprender Tailwind CSS",
         "category": "Desarrollo",
@@ -229,6 +229,43 @@
         ],
         "software": {
             "icon1": "assets/img/logoTailwind.png"
+        }
+    },
+    {
+        "id": "branding",
+        "title": "Crear marca personal",
+        "category": "Diseño",
+        "status": "en progreso",
+        "progress": "75",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Pensar diseño"
+            },
+            {
+                "value": 50,
+                "label": "Crear logos"
+            },
+            {
+                "value": 75,
+                "label": "Dar a conocer"
+            }
+        ],
+        "description": "Crear un logo de marca personal que sea mi branding como desarrollador.",
+        "doneTasks": [
+            {
+                "task1": "Lluvia de ideas✔️",
+                "task2": "Creación de logos✔️",
+                "task3": "Creación de mockups✔️"
+            }
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Subir publicación mostrando⭕"
+            }
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
         }
     },
     {
