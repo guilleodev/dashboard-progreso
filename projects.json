@@ -1,5 +1,157 @@
 [
     {
+        "id": "portfolio-personal",
+        "title": "Desarrollar un portfolio personal",
+        "category": "Desarrollo",
+        "status": "finalizado",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Figma"
+            },
+            {
+                "value": 50,
+                "label": "Desarrollo"
+            },
+            {
+                "value": 75,
+                "label": "Publicar"
+            }
+        ],
+        "description": "Terminar de desarrollar mi portfolio personal, cuyo progreso ya está avanzado en local y falta pulir detalles y publicarlo en github.",
+        "doneTasks": [
+            {
+                "task1": "Diseño en Figma✔️",
+                "task2": "Desarrollo HTML,Tailwind,CSS✔️",
+                "task3": "Remodelación del diseño✔️",
+                "task4": "Preparación para subir a Github✔️",
+                "task5": "Publicar proyecto en github✔️",
+                "task6": "Mejorar el responsive✔️",
+                "task7": "Desplegar en netlify✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png",
+            "icon2": "assets/img/logoHTML.png",
+            "icon3": "assets/img/logoCSS.png",
+            "icon4": "assets/img/logoJS.png",
+            "icon5": "assets/img/logoGithub.png",
+            "icon6": "assets/img/logoTailwind.png"
+        }
+    },
+    {
+        "id": "git-github",
+        "title": "Aprender Git y Github",
+        "category": "Desarrollo",
+        "status": "finalizado",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Conceptos"
+            },
+            {
+                "value": 50,
+                "label": "Git y Github"
+            },
+            {
+                "value": 75,
+                "label": "Subir repos"
+            }
+        ],
+        "description": "Aprender Git y Github desde 0 para poder aplicarlo en mis proyectos futuros. Una vez aprendido, crear repositorios en cada proyecto que desarrolle.",
+        "doneTasks": [
+            {
+                "task1": "Aprender conceptos básicos✔️",
+                "task2": "Diferenciar git y github✔️",
+                "task3": "Aplicarlo en proyectos✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoGit.png",
+            "icon2": "assets/img/logoGithub.png"
+        }
+    },
+    {
+        "id": "tailwind",
+        "title": "Aprender Tailwind CSS",
+        "category": "Desarrollo",
+        "status": "finalizado",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Hacer curso"
+            },
+            {
+                "value": 50,
+                "label": "Crear proyecto"
+            },
+            {
+                "value": 75,
+                "label": "Subir proyecto"
+            }
+        ],
+        "description": "Aprender Tailwind CSS desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
+        "doneTasks": [
+            {
+                "task1": "Hacer un curso para aprenderlo✔️",
+                "task2": "Crear un proyecto con Tailwind CSS✔️",
+                "task3": "Subir el proyecto a Github✔️",
+                "task4": "Terminar proyecto completo✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoTailwind.png"
+        }
+    },
+    {
+        "id": "branding",
+        "title": "Crear marca personal",
+        "category": "Diseño",
+        "status": "finalizado",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Pensar diseño"
+            },
+            {
+                "value": 50,
+                "label": "Crear logos"
+            },
+            {
+                "value": 75,
+                "label": "Dar a conocer"
+            }
+        ],
+        "description": "Crear un logo de marca personal que sea mi branding como desarrollador.",
+        "doneTasks": [
+            {
+                "task1": "Lluvia de ideas✔️",
+                "task2": "Creación de logos✔️",
+                "task3": "Creación de mockups✔️",
+                "task4": "Subir publicación mostrando✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoFigma.png"
+        }
+    },
+    {
         "id": "figma-portfolios",
         "title": "Crear diseños en Figma de 3 portfolios",
         "category": "Diseño",
@@ -78,51 +230,6 @@
         }
     },
     {
-        "id": "portfolio-personal",
-        "title": "Desarrollar un portfolio personal",
-        "category": "Desarrollo",
-        "status": "en progreso",
-        "progress": "75",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Figma"
-            },
-            {
-                "value": 50,
-                "label": "Desarrollo"
-            },
-            {
-                "value": 75,
-                "label": "Publicar"
-            }
-        ],
-        "description": "Terminar de desarrollar mi portfolio personal, cuyo progreso ya está avanzado en local y falta pulir detalles y publicarlo en github.",
-        "doneTasks": [
-            {
-                "task1": "Diseño en Figma✔️",
-                "task2": "Desarrollo HTML,Tailwind,CSS✔️",
-                "task3": "Remodelación del diseño✔️",
-                "task4": "Preparación para subir a Github✔️"
-            }
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Publicar proyecto en github⭕",
-                "task2": "Mejorar el responsive⭕",
-                "task3": "Desplegar en netlify⭕"
-            }
-        ],
-        "software": {
-            "icon1": "assets/img/logoFigma.png",
-            "icon2": "assets/img/logoHTML.png",
-            "icon3": "assets/img/logoCSS.png",
-            "icon4": "assets/img/logoJS.png",
-            "icon5": "assets/img/logoGithub.png",
-            "icon6": "assets/img/logoTailwind.png"
-        }
-    },
-    {
         "id": "firma-gmail",
         "title": "Realizar una firma de gmail para mis correos",
         "category": "Diseño",
@@ -160,136 +267,61 @@
         }
     },
     {
-        "id": "git-github",
-        "title": "Aprender Git y Github",
+        "id": "react",
+        "title": "Curso React",
         "category": "Desarrollo",
-        "status": "finalizado",
-        "progress": "100",
+        "status": "en progreso",
+        "progress": "25",
         "milestones": [
             {
                 "value": 25,
-                "label": "Conceptos"
+                "label": "Básico"
             },
             {
                 "value": 50,
-                "label": "Git y Github"
+                "label": ""
             },
             {
                 "value": 75,
-                "label": "Subir repos"
+                "label": ""
             }
         ],
-        "description": "Aprender Git y Github desde 0 para poder aplicarlo en mis proyectos futuros. Una vez aprendido, crear repositorios en cada proyecto que desarrolle.",
+        "description": "Aprender React desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
         "doneTasks": [
-            {
-                "task1": "Aprender conceptos básicos✔️",
-                "task2": "Diferenciar git y github✔️",
-                "task3": "Aplicarlo en proyectos✔️"
-            }
-        ],
-        "undoneTasks": [
             {}
         ],
-        "software": {
-            "icon1": "assets/img/logoGit.png",
-            "icon2": "assets/img/logoGithub.png"
-        }
-    },
-    {
-        "id": "tailwind",
-        "title": "Aprender Tailwind CSS",
-        "category": "Desarrollo",
-        "status": "en progreso",
-        "progress": "100",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Hacer curso"
-            },
-            {
-                "value": 50,
-                "label": "Crear proyecto"
-            },
-            {
-                "value": 75,
-                "label": "Subir proyecto"
-            }
-        ],
-        "description": "Aprender Tailwind CSS desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
-        "doneTasks": [
-            {
-                "task1": "Hacer un curso para aprenderlo✔️",
-                "task2": "Crear un proyecto con Tailwind CSS✔️",
-                "task3": "Subir el proyecto a Github✔️"
-            }
-        ],
         "undoneTasks": [
             {
-                "task1": "Terminar proyecto completo⭕"
+                "task1": "Aprender React⭕",
+                "task2": "Crear web con React⭕",
+                "task3": "Subir a Github⭕"
             }
         ],
         "software": {
-            "icon1": "assets/img/logoTailwind.png"
+            "icon1": "assets/img/logoReact.png"
         }
     },
     {
-        "id": "branding",
-        "title": "Crear marca personal",
-        "category": "Diseño",
-        "status": "en progreso",
-        "progress": "75",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Pensar diseño"
-            },
-            {
-                "value": 50,
-                "label": "Crear logos"
-            },
-            {
-                "value": 75,
-                "label": "Dar a conocer"
-            }
-        ],
-        "description": "Crear un logo de marca personal que sea mi branding como desarrollador.",
-        "doneTasks": [
-            {
-                "task1": "Lluvia de ideas✔️",
-                "task2": "Creación de logos✔️",
-                "task3": "Creación de mockups✔️"
-            }
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Subir publicación mostrando⭕"
-            }
-        ],
-        "software": {
-            "icon1": "assets/img/logoFigma.png"
-        }
-    },
-    {
-        "id": "pagina-portfolios",
-        "title": "Desarrollar una página de portfolios",
+        "id": "javascript",
+        "title": "Curso JavaScript",
         "category": "Desarrollo",
-        "status": "sin empezar",
-        "progress": "0",
+        "status": "en progreso",
+        "progress": "15",
         "milestones": [
             {
                 "value": 25,
-                "label": "Figma"
+                "label": "JavaScript"
             },
             {
                 "value": 50,
-                "label": "Desarrollo"
+                "label": "Web"
             },
             {
                 "value": 75,
-                "label": "Publicación"
+                "label": "Github"
             }
         ],
-        "description": "Desarrollo de una página web que muestre mis portfolios diseñados en Figma para que el usuario pueda verlos de forma interactiva.",
+        "description": "Formarme en conceptos de JavaScript para fortalecer y asentar",
         "doneTasks": [
             {}
         ],
@@ -301,17 +333,14 @@
             }
         ],
         "software": {
-            "icon1": "assets/img/logoFigma.png",
-            "icon2": "assets/img/logoHTML.png",
-            "icon3": "assets/img/logoTailwind.png",
-            "icon4": "assets/img/logoJS.png"
+            "icon1": "assets/img/logoJS.png"
         }
     },
     {
-        "id": "bootstrap",
-        "title": "Aprender Bootstrap",
+        "id": "proyecto",
+        "title": "Proyecto",
         "category": "Desarrollo",
-        "status": "sin empezar",
+        "status": "sin comenzar",
         "progress": "0",
         "milestones": [
             {
@@ -327,17 +356,16 @@
                 "label": ""
             }
         ],
-        "description": "Aprender Bootstrap desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
+        "description": "Proyecto conjunto que se está maquinando...",
         "doneTasks": [
             {}
         ],
         "undoneTasks": [
             {
-                "task1": "Aprender Bootstrap⭕"
             }
         ],
         "software": {
-            "icon1": "assets/img/logoBootstrap.png"
+            "icon1": ""
         }
     }
 ]

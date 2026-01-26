@@ -25,13 +25,6 @@
         <h1 onclick="location.reload()" class="title">
             Dashboard - Progreso
         </h1>
-        <section id="intro">
-            <p>En esta página se recopilan los <span style="color: rgb(7, 148, 150)">proyectos</span> en los que estoy
-                trabajando indicando en que punto está cada uno. Cada proyecto aparece en forma de <span
-                    style="color: rgb(255, 255, 255)">tarjeta</span> indicando una
-                descripción, el estado y la categoría. Al <span style="color: rgb(255, 255, 255)">clickar</span> sobre
-                cada tarjeta se muestra información adicional de tareas completadas o pendientes.</p>
-        </section>
         <section id="projects">
             <!-- Contenido introducido por JS -->
         </section>
@@ -41,6 +34,21 @@
         <img src="assets/img/logov2Black-transparent.png" alt="logo small GuilleODEV">
         <span>© 2025 guilleODEV. Todos los derechos reservados</span>
     </footer>
+
+    <div id="info-banner" class="info-banner">
+        <p>
+            En esta página se recopilan los
+            <span class="highlight">proyectos</span> en los que estoy trabajando,
+            indicando en qué punto está cada uno.
+            Cada proyecto aparece como una
+            <span class="highlight-white">tarjeta</span> con descripción, estado y categoría.
+            Al <span class="highlight-white">hacer click</span> se muestra información
+            adicional de tareas completadas o pendientes.
+        </p>
+
+        <button id="close-banner" aria-label="Cerrar aviso">Entendido</button>
+    </div>
+
 
     <script src="script.js"></script>
 

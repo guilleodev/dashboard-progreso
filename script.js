@@ -118,3 +118,15 @@ fetch("projects.json")
     .catch((error) => {
         console.error("Error cargando projects.json", error);
     });
+
+const banner = document.getElementById("info-banner");
+const closeBtn = document.getElementById("close-banner");
+
+if (localStorage.getItem("infoBannerSeen")) {
+    banner.style.display = "none";
+}
+
+closeBtn.addEventListener("click", () => {
+    banner.style.display = "none";
+    localStorage.setItem("infoBannerSeen", "true");
+});
