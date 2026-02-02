@@ -268,7 +268,7 @@
     },
     {
         "id": "react",
-        "title": "Curso React",
+        "title": "Curso React (scrimba)",
         "category": "Desarrollo",
         "status": "en progreso",
         "progress": "25",
@@ -279,11 +279,11 @@
             },
             {
                 "value": 50,
-                "label": ""
+                "label": "Proyecto"
             },
             {
                 "value": 75,
-                "label": ""
+                "label": "Finalizar"
             }
         ],
         "description": "Aprender React desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
@@ -306,7 +306,7 @@
         "title": "Curso JavaScript",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "15",
+        "progress": "75",
         "milestones": [
             {
                 "value": 25,
@@ -314,11 +314,46 @@
             },
             {
                 "value": 50,
-                "label": "Web"
+                "label": "Proyecto"
             },
             {
                 "value": 75,
-                "label": "Github"
+                "label": "Finalizar"
+            }
+        ],
+        "description": "Formarme en conceptos de JavaScript para fortalecer y asentar",
+        "doneTasks": [
+            {
+                "task1": "Aprender conceptos✔️"
+            }
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Desarrollar proyecto⭕"
+            }
+        ],
+        "software": {
+            "icon1": "assets/img/logoJS.png"
+        }
+    },
+    {
+        "id": "javascript",
+        "title": "Curso React (codedex)",
+        "category": "Desarrollo",
+        "status": "sin empezar",
+        "progress": "0",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Aprender"
+            },
+            {
+                "value": 50,
+                "label": "Proyecto"
+            },
+            {
+                "value": 75,
+                "label": "Finalizar"
             }
         ],
         "description": "Formarme en conceptos de JavaScript para fortalecer y asentar",
@@ -327,45 +362,12 @@
         ],
         "undoneTasks": [
             {
-                "task1": "Crear diseño en Figma⭕",
-                "task2": "Desarrollar web⭕",
-                "task3": "Publicar en github⭕"
+                "task1": "Aprender conceptos✔️",
+                "task2": "Desarrollar proyecto⭕"
             }
         ],
         "software": {
             "icon1": "assets/img/logoJS.png"
-        }
-    },
-    {
-        "id": "proyecto",
-        "title": "Proyecto",
-        "category": "Desarrollo",
-        "status": "sin comenzar",
-        "progress": "0",
-        "milestones": [
-            {
-                "value": 25,
-                "label": ""
-            },
-            {
-                "value": 50,
-                "label": ""
-            },
-            {
-                "value": 75,
-                "label": ""
-            }
-        ],
-        "description": "Proyecto conjunto que se está maquinando...",
-        "doneTasks": [
-            {}
-        ],
-        "undoneTasks": [
-            {
-            }
-        ],
-        "software": {
-            "icon1": ""
         }
     }
 ]
