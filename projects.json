@@ -152,11 +152,44 @@
         }
     },
     {
+        "id": "javascript",
+        "title": "Curso JavaScript",
+        "category": "Desarrollo",
+        "status": "en progreso",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "JavaScript"
+            },
+            {
+                "value": 50,
+                "label": "Proyecto"
+            },
+            {
+                "value": 75,
+                "label": "Finalizar"
+            }
+        ],
+        "description": "Formarme en conceptos de JavaScript para fortalecer y asentar",
+        "doneTasks": [
+            {
+                "task1": "Aprender conceptos✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoJS.png"
+        }
+    },
+    {
         "id": "figma-portfolios",
-        "title": "Crear diseños en Figma de 3 portfolios",
+        "title": "Crear diseños en Figma de 2 portfolios",
         "category": "Diseño",
         "status": "en progreso",
-        "progress": "75",
+        "progress": "100",
         "milestones": [
             {
                 "value": 25,
@@ -171,21 +204,17 @@
                 "label": "Guía de estilos"
             }
         ],
-        "description": "Crear en Figma el diseño de 3 tipos de portfolios: Retro, Modern y Personal. Este diseño debe contener la versión de escritorio y móvil, guía de estilos y mockup.",
+        "description": "Crear en Figma el diseño de 2 tipos de portfolios: Retro e IA. Este diseño debe contener la versión de escritorio y móvil, guía de estilos y mockup.",
         "doneTasks": [
             {
-                "task1": "Diseño escritorio (Retro, Modern, Personal)✔️",
-                "task2": "Versión de móvil (Retro, Modern)✔️",
-                "task3": "Guía de estilos (Retro)✔️",
-                "task4": "Mockup (Retro)✔️"
+                "task1": "Diseño escritorio (Retro, IA)✔️",
+                "task2": "Versión de móvil (Retro, IA)✔️",
+                "task3": "Guía de estilos (Retro, IA)✔️",
+                "task4": "Mockup (Retro, IA)✔️"
             }
         ],
         "undoneTasks": [
-            {
-                "task1": "Versión de móvil (Personal)⭕",
-                "task2": "Guía de estilos (Modern, Personal)⭕",
-                "task3": "Mockup (Modern, Personal)⭕"
-            }
+            {}
         ],
         "software": {
             "icon1": "assets/img/logoFigma.png"
@@ -303,45 +332,10 @@
     },
     {
         "id": "javascript",
-        "title": "Curso JavaScript",
-        "category": "Desarrollo",
-        "status": "en progreso",
-        "progress": "75",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "JavaScript"
-            },
-            {
-                "value": 50,
-                "label": "Proyecto"
-            },
-            {
-                "value": 75,
-                "label": "Finalizar"
-            }
-        ],
-        "description": "Formarme en conceptos de JavaScript para fortalecer y asentar",
-        "doneTasks": [
-            {
-                "task1": "Aprender conceptos✔️"
-            }
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Desarrollar proyecto⭕"
-            }
-        ],
-        "software": {
-            "icon1": "assets/img/logoJS.png"
-        }
-    },
-    {
-        "id": "javascript",
         "title": "Curso React (codedex)",
         "category": "Desarrollo",
         "status": "sin empezar",
-        "progress": "0",
+        "progress": "25",
         "milestones": [
             {
                 "value": 25,
@@ -365,6 +359,37 @@
                 "task1": "Aprender conceptos✔️",
                 "task2": "Desarrollar proyecto⭕"
             }
+        ],
+        "software": {
+            "icon1": "assets/img/logoReact.png"
+        }
+    },
+    {
+        "id": "react",
+        "title": "Curso JavaScript Intermedio (codedex)",
+        "category": "Desarrollo",
+        "status": "sin empezar",
+        "progress": "0",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Básico"
+            },
+            {
+                "value": 50,
+                "label": "Proyecto"
+            },
+            {
+                "value": 75,
+                "label": "Finalizar"
+            }
+        ],
+        "description": "Aprender más conocimientos en JS más avanzados.",
+        "doneTasks": [
+            {}
+        ],
+        "undoneTasks": [
+            {}
         ],
         "software": {
             "icon1": "assets/img/logoJS.png"
