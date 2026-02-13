@@ -221,6 +221,84 @@
         }
     },
     {
+        "id": "steam-profile",
+        "title": "Steam Profile - Crear web de perfil de Steam",
+        "category": "Desarrollo",
+        "status": "finalizado",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Estructura"
+            },
+            {
+                "value": 50,
+                "label": "Datos"
+            },
+            {
+                "value": 75,
+                "label": "Publicar"
+            }
+        ],
+        "description": "Crear una web que sirva para buscar usuarios de steam así que como datos de su perfil y juegos",
+        "doneTasks": [
+            {
+                "task1": "Estructura de la web ✔️",
+                "task2": "Incluir datos ✔️",
+                "task3": "Diseño de la web ✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoHTML.png",
+            "icon2": "assets/img/logoCSS.png",
+            "icon3": "assets/img/logoJS.png"
+        }
+    },
+    {
+        "id": "lec-zone",
+        "title": "LEC Zone - Crear web de resultados LEC ZONE",
+        "category": "Desarrollo",
+        "status": "en progreso",
+        "progress": "75",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Estructura"
+            },
+            {
+                "value": 50,
+                "label": "Datos"
+            },
+            {
+                "value": 75,
+                "label": "Publicar"
+            }
+        ],
+        "description": "Crear una web que almacene datos de la LEC como resultados, jugadores, partidos y estadísticas",
+        "doneTasks": [
+            {
+                "task1": "Estructura de la web ✔️",
+                "task2": "Incluir datos básicos ✔️",
+                "task3": "Diseños de la web ✔️"
+            }
+        ],
+        "undoneTasks": [
+            {
+                "task1": "Incluir estadísticas ✔️",
+                "task2": "Terminar web ✔️",
+                "task3": "Publicar ✔️"
+            }
+        ],
+        "software": {
+            "icon1": "assets/img/logoHTML.png",
+            "icon2": "assets/img/logoCSS.png",
+            "icon3": "assets/img/logoJS.png"
+        }
+    },
+    {
         "id": "gatunacrochet-web",
         "title": "Terminar la web de GatunaCrochet",
         "category": "Desarrollo",
