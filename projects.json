@@ -282,12 +282,13 @@
             {
                 "task1": "Estructura de la web ✔️",
                 "task2": "Incluir datos básicos ✔️",
-                "task3": "Diseños de la web ✔️"
+                "task3": "Diseños de la web ✔️",
+                "task4": "Agregar 3 subpáginas ✔️",
+                "task5": "Incluir estadísticas ✔️"
             }
         ],
         "undoneTasks": [
             {
-                "task1": "Incluir estadísticas ✔️",
                 "task2": "Terminar web ✔️",
                 "task3": "Publicar ✔️"
             }
