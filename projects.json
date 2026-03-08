@@ -258,6 +258,41 @@
         }
     },
     {
+        "id": "gatunacrochet-web",
+        "title": "Terminar la web de GatunaCrochet",
+        "category": "Desarrollo",
+        "status": "en progreso",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Desarrollo"
+            },
+            {
+                "value": 50,
+                "label": "Publicación"
+            },
+            {
+                "value": 75,
+                "label": "Figma"
+            }
+        ],
+        "description": "Creación y publicación de la web de GatunaCrochet en su totalidad, incluyendo el diseño en Figma y utilizando WordPress como CMS y Elementor como maquetador.",
+        "doneTasks": [
+            {
+                "task1": "Web desarrollada✔️",
+                "task2": "Publicada (dominio y hosting)✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoWordpress.png",
+            "icon2": "assets/img/logoElementor.png"
+        }
+    },
+    {
         "id": "lec-zone",
         "title": "LEC Zone - Crear web de resultados LEC ZONE",
         "category": "Desarrollo",
@@ -289,52 +324,13 @@
         ],
         "undoneTasks": [
             {
-                "task2": "Terminar web ✔️",
-                "task3": "Publicar ✔️"
+                "task1": "Publicar ✔️"
             }
         ],
         "software": {
             "icon1": "assets/img/logoHTML.png",
             "icon2": "assets/img/logoCSS.png",
             "icon3": "assets/img/logoJS.png"
-        }
-    },
-    {
-        "id": "gatunacrochet-web",
-        "title": "Terminar la web de GatunaCrochet",
-        "category": "Desarrollo",
-        "status": "en progreso",
-        "progress": "75",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Desarrollo"
-            },
-            {
-                "value": 50,
-                "label": "Publicación"
-            },
-            {
-                "value": 75,
-                "label": "Figma"
-            }
-        ],
-        "description": "Creación y publicación de la web de GatunaCrochet en su totalidad, incluyendo el diseño en Figma y utilizando WordPress como CMS y Elementor como maquetador.",
-        "doneTasks": [
-            {
-                "task1": "Web desarrollada✔️",
-                "task2": "Publicada (dominio y hosting)✔️"
-            }
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Diseño en figma terminado⭕"
-            }
-        ],
-        "software": {
-            "icon1": "assets/img/logoWordpress.png",
-            "icon2": "assets/img/logoElementor.png",
-            "icon3": "assets/img/logoFigma.png"
         }
     },
     {
@@ -379,7 +375,7 @@
         "title": "Curso React (scrimba)",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "25",
+        "progress": "30",
         "milestones": [
             {
                 "value": 25,
@@ -396,7 +392,9 @@
         ],
         "description": "Aprender React desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
         "doneTasks": [
-            {}
+            {
+                "task1": "Componentes, props"
+            }
         ],
         "undoneTasks": [
             {
@@ -441,37 +439,6 @@
         ],
         "software": {
             "icon1": "assets/img/logoReact.png"
-        }
-    },
-    {
-        "id": "react",
-        "title": "Curso JavaScript Intermedio (codedex)",
-        "category": "Desarrollo",
-        "status": "sin empezar",
-        "progress": "0",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Básico"
-            },
-            {
-                "value": 50,
-                "label": "Proyecto"
-            },
-            {
-                "value": 75,
-                "label": "Finalizar"
-            }
-        ],
-        "description": "Aprender más conocimientos en JS más avanzados.",
-        "doneTasks": [
-            {}
-        ],
-        "undoneTasks": [
-            {}
-        ],
-        "software": {
-            "icon1": "assets/img/logoJS.png"
         }
     }
 ]
