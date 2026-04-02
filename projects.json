@@ -375,7 +375,7 @@
         "title": "Curso React (scrimba)",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "30",
+        "progress": "40",
         "milestones": [
             {
                 "value": 25,
@@ -393,14 +393,14 @@
         "description": "Aprender React desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
         "doneTasks": [
             {
-                "task1": "Componentes, props"
+                "task1": "Componentes, props",
+                "task2": "UseState"
             }
         ],
         "undoneTasks": [
             {
-                "task1": "Aprender React⭕",
-                "task2": "Crear web con React⭕",
-                "task3": "Subir a Github⭕"
+                "task1": "Crear web con React⭕",
+                "task2": "Subir a Github⭕"
             }
         ],
         "software": {
@@ -409,36 +409,38 @@
     },
     {
         "id": "javascript",
-        "title": "Curso React (codedex)",
+        "title": "Proyecto Juego",
         "category": "Desarrollo",
-        "status": "sin empezar",
+        "status": "en progreso",
         "progress": "25",
         "milestones": [
             {
                 "value": 25,
-                "label": "Aprender"
+                "label": "Estructura"
             },
             {
                 "value": 50,
-                "label": "Proyecto"
+                "label": "Desarrollo"
             },
             {
                 "value": 75,
-                "label": "Finalizar"
+                "label": "Publicar"
             }
         ],
-        "description": "Formarme en conceptos de JavaScript para fortalecer y asentar",
+        "description": "Creación de un juego con Phaser",
         "doneTasks": [
-            {}
+            {
+                "task1": "Estructurar proyecto✔️"
+            }
         ],
         "undoneTasks": [
             {
-                "task1": "Aprender conceptos✔️",
                 "task2": "Desarrollar proyecto⭕"
             }
         ],
         "software": {
-            "icon1": "assets/img/logoReact.png"
+            "icon1": "assets/img/logoJS.png",
+            "icon2": "assets/img/logoPhaser.png"
         }
     }
 ]
