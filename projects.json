@@ -409,10 +409,10 @@
     },
     {
         "id": "javascript",
-        "title": "Proyecto Juego",
+        "title": "Proyecto Juego con Phaser",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "25",
+        "progress": "50",
         "milestones": [
             {
                 "value": 25,
@@ -430,7 +430,8 @@
         "description": "Creación de un juego con Phaser",
         "doneTasks": [
             {
-                "task1": "Estructurar proyecto✔️"
+                "task1": "Estructurar proyecto✔️",
+                "task2": "Planificar proyecto✔️"
             }
         ],
         "undoneTasks": [
