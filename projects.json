@@ -293,6 +293,78 @@
         }
     },
     {
+        "id": "react",
+        "title": "Curso React (scrimba)",
+        "category": "Desarrollo",
+        "status": "finalizado",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Básico"
+            },
+            {
+                "value": 50,
+                "label": "Proyecto"
+            },
+            {
+                "value": 75,
+                "label": "Finalizar"
+            }
+        ],
+        "description": "Aprender React desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
+        "doneTasks": [
+            {
+                "task1": "Componentes, props✔️",
+                "task2": "UseState✔️",
+                "task3": "Crear web con React✔️",
+                "task4": "Subir a Github✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoReact.png"
+        }
+    },
+    {
+        "id": "node",
+        "title": "Curso Node.js (codedex)",
+        "category": "Desarrollo",
+        "status": "finalizado",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Básico"
+            },
+            {
+                "value": 50,
+                "label": "Proyecto"
+            },
+            {
+                "value": 75,
+                "label": "Finalizar"
+            }
+        ],
+        "description": "Aprender Node desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
+        "doneTasks": [
+            {
+                "task1": "Conceptos básicos Node✔️",
+                "task2": "Módulos✔️",
+                "task3": "Servers✔️",
+                "task4": "HTTP Methods✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoNode.png"
+        }
+    },
+    {
         "id": "lec-zone",
         "title": "LEC Zone - Crear web de resultados LEC ZONE",
         "category": "Desarrollo",
@@ -368,43 +440,6 @@
         "software": {
             "icon1": "assets/img/logoVSC.png",
             "icon12": "assets/img/logoGmail.png"
-        }
-    },
-    {
-        "id": "react",
-        "title": "Curso React (scrimba)",
-        "category": "Desarrollo",
-        "status": "en progreso",
-        "progress": "45",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Básico"
-            },
-            {
-                "value": 50,
-                "label": "Proyecto"
-            },
-            {
-                "value": 75,
-                "label": "Finalizar"
-            }
-        ],
-        "description": "Aprender React desde 0 para poder utilizarlo en mis futuros proyectos de desarrollo web.",
-        "doneTasks": [
-            {
-                "task1": "Componentes, props",
-                "task2": "UseState"
-            }
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Crear web con React⭕",
-                "task2": "Subir a Github⭕"
-            }
-        ],
-        "software": {
-            "icon1": "assets/img/logoReact.png"
         }
     },
     {
