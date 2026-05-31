@@ -447,7 +447,7 @@
         "title": "Curso Node.js (scrimba)",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "25",
+        "progress": "75",
         "milestones": [
             {
                 "value": 25,
@@ -465,13 +465,16 @@
         "description": "Crear una firma para Gmail que pueda utilizar en mis correos electrónicos profesionales utilizando código HTMLd y después exportándolo a Gmail.",
         "doneTasks": [
             {
-                "task1": "Conceptos básicos✔️"
+                "task1": "Conceptos básicos✔️",
+                "task2": "Path params✔️",
+                "task3": "Query params✔️",
+                "task4": "JSON y Headers✔️",
+                "task5": "CORS✔️"
             }
         ],
         "undoneTasks": [
             {
-                "task1": "Crear proyecto 1",
-                "task2": "Crear proyecto 2"
+                "task1": "Crear proyecto de muestra⭕"
             }
         ],
         "software": {
@@ -483,7 +486,7 @@
         "title": "Proyecto Juego con Phaser",
         "category": "Desarrollo",
         "status": "en progreso",
-        "progress": "60",
+        "progress": "75",
         "milestones": [
             {
                 "value": 25,
@@ -502,12 +505,13 @@
         "doneTasks": [
             {
                 "task1": "Estructurar proyecto✔️",
-                "task2": "Planificar proyecto✔️"
+                "task2": "Planificar proyecto: Pokemon Ascenso✔️",
+                "task3": "Definir proyecto✔️"
             }
         ],
         "undoneTasks": [
             {
-                "task2": "Desarrollar proyecto⭕"
+                "task2": "Publicarlo⭕"
             }
         ],
         "software": {
