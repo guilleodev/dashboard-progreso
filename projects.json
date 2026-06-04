@@ -365,6 +365,43 @@
         }
     },
     {
+        "id": "curso-node-scrimba",
+        "title": "Curso Node.js (scrimba)",
+        "category": "Desarrollo",
+        "status": "finalizado",
+        "progress": "100",
+        "milestones": [
+            {
+                "value": 25,
+                "label": "Conceptos"
+            },
+            {
+                "value": 50,
+                "label": "Servidor"
+            },
+            {
+                "value": 75,
+                "label": "Proyecto"
+            }
+        ],
+        "description": "Crear una firma para Gmail que pueda utilizar en mis correos electrónicos profesionales utilizando código HTMLd y después exportándolo a Gmail.",
+        "doneTasks": [
+            {
+                "task1": "Conceptos básicos✔️",
+                "task2": "Path params✔️",
+                "task3": "Query params✔️",
+                "task4": "JSON y Headers✔️",
+                "task5": "CORS✔️"
+            }
+        ],
+        "undoneTasks": [
+            {}
+        ],
+        "software": {
+            "icon1": "assets/img/logoNode.png"
+        }
+    },
+    {
         "id": "lec-zone",
         "title": "LEC Zone - Crear web de resultados LEC ZONE",
         "category": "Desarrollo",
@@ -443,45 +480,6 @@
         }
     },
     {
-        "id": "curso-node-scrimba",
-        "title": "Curso Node.js (scrimba)",
-        "category": "Desarrollo",
-        "status": "en progreso",
-        "progress": "75",
-        "milestones": [
-            {
-                "value": 25,
-                "label": "Conceptos"
-            },
-            {
-                "value": 50,
-                "label": "Servidor"
-            },
-            {
-                "value": 75,
-                "label": "Proyecto"
-            }
-        ],
-        "description": "Crear una firma para Gmail que pueda utilizar en mis correos electrónicos profesionales utilizando código HTMLd y después exportándolo a Gmail.",
-        "doneTasks": [
-            {
-                "task1": "Conceptos básicos✔️",
-                "task2": "Path params✔️",
-                "task3": "Query params✔️",
-                "task4": "JSON y Headers✔️",
-                "task5": "CORS✔️"
-            }
-        ],
-        "undoneTasks": [
-            {
-                "task1": "Crear proyecto de muestra⭕"
-            }
-        ],
-        "software": {
-            "icon1": "assets/img/logoNode.png"
-        }
-    },
-    {
         "id": "javascript",
         "title": "Proyecto Juego con Phaser",
         "category": "Desarrollo",
@@ -506,12 +504,13 @@
             {
                 "task1": "Estructurar proyecto✔️",
                 "task2": "Planificar proyecto: Pokemon Ascenso✔️",
-                "task3": "Definir proyecto✔️"
+                "task3": "Definir proyecto✔️",
+                "task4": "Publicarlo (PokemonAscensoDevLogs)✔️"
             }
         ],
         "undoneTasks": [
             {
-                "task2": "Publicarlo⭕"
+                "task1": "Terminarlo⭕"
             }
         ],
         "software": {
